@@ -73,28 +73,28 @@ li {
 }
 .two {
   content: "";
-  background: url(pencil.svg);
+  background: url(pencil.svg) center center no-repeat;
   width: 20px;
   height: 20px;
   position: absolute;
-  border-radius: 50%;
+  border-radius: 20%;
   right: 40px;
   top: 14px;
-  background-position: center;
 }
 .three {
   content: "";
-  background: url(x.svg);
+  background: url(x.svg) center center no-repeat;
   width: 20px;
   height: 20px;
   position: absolute;
-  border-radius: 50%;
+  border-radius: 20%;
   right: 12px;
   top: 14px;
   background-position: center;
 }
 .checked .one {
-  background: orange;
+  background: url(tick-mark.png) center center no-repeat;
+  background-size: contain;
 }
 .checked {
   text-decoration: line-through;
